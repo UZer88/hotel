@@ -22,7 +22,6 @@ body {
 
 .header {
   background-color: #fff;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -33,7 +32,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  padding-top: 26px;
+  padding-top: 25px;
 }
 
 .header__list {
@@ -57,6 +56,42 @@ body {
   opacity: 0.75;
 }
 
+.enter {
+  border-radius: 22px;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #BC9CFF;
+  background-color: #fff;
+  width: 87px;
+  height: 24px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.enter:hover {
+  background-color: #555;
+}
+
+.registration {
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 22px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 196px;
+  height: 24px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.registration:hover {
+  background-color: rgb(219, 62, 62);
+}
+
 /* Intro  */
 
 .intro {
@@ -64,7 +99,7 @@ body {
   background: url(../img/intro-bg.jpg) no-repeat center;
   background-size: cover;
   position: relative;
-  top: 70px;
+  top: 5px;
 }
 
 .wrapper__intro {
@@ -87,19 +122,70 @@ body {
 .text__intro {
   position: absolute;
   bottom: 18px;
-  left: 700px;
+  left: 1000px;
+  width: 297px;
+  height: 48px;
 }
 
+.come-go  {
+  display: flex;
+}
 
+/* Footer  */
 
+.footer {
+  background: #fff;
+  padding: 100px 0;
+}
 
+.footer__item {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.footer__logo {
+  width: 15%;
+}
 
+.footer__logo-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
 
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85%;
+}
 
+.footer__menu {
+  list-style-type: none;
+}
 
+.footer__menu-title {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #1F2041;
+}
 
+.footer__menu-link {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(31, 32, 65, 0.5);
+}
 
+.footer__menu-level {
+  width: 260px;
+  height: 48px;
+}
 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Quicksand', sans-serif;
+.footer__menu-item-text {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(31, 32, 65, 0.75);
+}
